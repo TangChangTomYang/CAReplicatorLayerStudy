@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		03FE2359E54BEB67906174F5 /* Pods_repeatLayerDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E197F3F925C0681C709E00D9 /* Pods_repeatLayerDemo_Example.framework */; };
+		148AD9C71F31BDB500E02EC4 /* YRAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 148AD9C61F31BDB500E02EC4 /* YRAnimation.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,7 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EA23D57D99FFCE98808FAF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0EA23D57D99FFCE98808FAF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		148AD9C51F31BDB500E02EC4 /* YRAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRAnimation.h; sourceTree = "<group>"; };
+		148AD9C61F31BDB500E02EC4 /* YRAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRAnimation.m; sourceTree = "<group>"; };
 		24A7EB39AF5E13A65379C3DD /* Pods_repeatLayerDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_repeatLayerDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* repeatLayerDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = repeatLayerDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,8 +67,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95477E1DA6E1D348471BD08C /* Pods-repeatLayerDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-repeatLayerDemo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-repeatLayerDemo_Tests/Pods-repeatLayerDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CBE524CC8D6BA3B0F20A8FCD /* Pods-repeatLayerDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-repeatLayerDemo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-repeatLayerDemo_Example/Pods-repeatLayerDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D0196FFC3FA56D4564913054 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D2F69ABF0BD89DE35B802964 /* repeatLayerDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = repeatLayerDemo.podspec; path = ../repeatLayerDemo.podspec; sourceTree = "<group>"; };
+		D0196FFC3FA56D4564913054 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D2F69ABF0BD89DE35B802964 /* repeatLayerDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = repeatLayerDemo.podspec; path = ../repeatLayerDemo.podspec; sourceTree = "<group>"; };
 		E197F3F925C0681C709E00D9 /* Pods_repeatLayerDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_repeatLayerDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,6 +107,15 @@
 				95477E1DA6E1D348471BD08C /* Pods-repeatLayerDemo_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		148AD9C41F31BD8B00E02EC4 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				148AD9C51F31BDB500E02EC4 /* YRAnimation.h */,
+				148AD9C61F31BDB500E02EC4 /* YRAnimation.m */,
+			);
+			name = class;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -148,6 +160,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YRViewController.h */,
 				6003F5A6195388D20070C39A /* YRViewController.m */,
+				148AD9C41F31BD8B00E02EC4 /* class */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -397,6 +410,7 @@
 				6003F59E195388D20070C39A /* YRAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YRViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				148AD9C71F31BDB500E02EC4 /* YRAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

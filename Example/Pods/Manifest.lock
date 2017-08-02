@@ -1,0 +1,16 @@
+PODS:
+  - repeatLayerDemo (0.1.0)
+
+DEPENDENCIES:
+  - repeatLayerDemo (from `../`)
+
+EXTERNAL SOURCES:
+  repeatLayerDemo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  repeatLayerDemo: cc7613599467803254751c13cfa792d27413b955
+
+PODFILE CHECKSUM: bd88d8ab25734e407599e05a1985341733abc323
+
+COCOAPODS: 1.2.1

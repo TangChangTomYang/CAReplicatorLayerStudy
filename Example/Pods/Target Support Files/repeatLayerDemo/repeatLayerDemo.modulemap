@@ -1,0 +1,6 @@
+framework module repeatLayerDemo {
+  umbrella header "repeatLayerDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

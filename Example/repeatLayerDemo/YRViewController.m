@@ -7,8 +7,10 @@
 //
 
 #import "YRViewController.h"
+#import "YRAnimation.h"
 
 @interface YRViewController ()
+@property (weak, nonatomic) IBOutlet UIView *contentV;
 
 @end
 
@@ -20,10 +22,17 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+
+    ;
+    
+    
+    
+    
+//     [self .contentV.layer addSublayer:[YRAnimation replicatorLayer_Wave]];
+//     [self .contentV.layer addSublayer:[YRAnimation replicatorLayer_Grid]];
+//     [self .contentV.layer addSublayer:[YRAnimation replicatorLayer_Circle]];
+     [self .contentV.layer addSublayer:[YRAnimation replicatorLayer_Triangle]];
 }
 
 @end
