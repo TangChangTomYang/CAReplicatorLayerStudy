@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'repeatLayerDemo_Example' do
+  pod 'repeatLayerDemo', :path => '../'
+
+  target 'repeatLayerDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
